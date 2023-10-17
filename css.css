@@ -15,4 +15,24 @@ body{
     height: 50px;
     width: 50px;
     background-color: aquamarine;
+    margin: 10px;
+}
+.quadrado{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 100%;
+}
+.container{
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    align-content: center;    
 }
